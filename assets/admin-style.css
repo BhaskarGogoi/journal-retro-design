@@ -1,0 +1,255 @@
+a {
+    text-decoration: none !important;
+    /* color: #4b70dd; */
+}
+
+/* ======================
+        Login Screen
+====================== */
+.auth-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #72463a;
+}
+
+.auth-box {
+    width: 400px;
+}
+
+/* ======================
+        Admin Sidebar
+====================== */
+.admin-sidebar {
+    position: fixed;
+    display: inline-block;
+    overflow: auto;
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 16%;
+    background-color: #4b70dd;
+    text-align: left;
+    padding: 10px;
+}
+
+.admin-sidebar .logo {
+    height: 80px;
+    padding: 10px;
+}
+
+.admin-sidebar .logo img {
+    height: 80px;
+    padding: 10px;
+}
+
+.admin-sidebar .logo a {
+    color: #fff;
+}
+
+.admin-sidebar .logo a:hover {
+    color: blue;
+}
+
+.admin-sidebar hr {
+    color: #bbb;
+    background-color: #bbb;
+    width: 80%;
+}
+
+.admin-sidebar ul {
+    margin-left: -20px;
+    width: 100%;
+    clear: both;
+    list-style: none;
+}
+
+.admin-sidebar ul li {
+    color: #f1f4fe;
+    margin-top: 3px;
+    padding: 5px;
+    transition: 0.2s all;
+}
+
+.admin-sidebar ul li:hover {
+    background-color: #95abeb;
+    border-radius: 5px;
+}
+
+.side-nav-active {
+    background-color: #95abeb;
+    border-radius: 5px;
+    color: #000;
+}
+
+.admin-sidebar h6 {
+    margin-top: 10px;
+    margin-left: 6px;
+    color: #95abeb;
+}
+
+/* ===============================
+        Layout For Admin Screens
+================================== */
+.main {
+    position: relative;
+    display: inline-block;
+    margin-left: 16%;
+    width: 84%;
+}
+
+.dashboard-header {
+    position: fixed;
+    height: 80px;
+    box-shadow: 3px 0px 10px 2px #bbb;
+    /* border: 1px solid #000; */
+    width: 84%;
+    text-align: right;
+    padding: 5px;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.main-content {
+    margin-top: 120px;
+}
+
+/* ======================
+       Custom Buttons
+====================== */
+.logout {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    background-color: #E6425E;
+    color: #fff;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    box-shadow: 2px 4px 8px 1px #aaa;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.logout:hover {
+    transform: scale(0.9);
+}
+
+.btn-orange {
+    border: none;
+    background-color: #985A48;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s all;
+}
+
+.btn-orange:hover {
+    background-color: #f64141;
+}
+
+.btn-primary {
+    background-color: #4b70dd !important;
+}
+
+.btn-primary:hover {
+    background-color: #1d4cdc !important;
+}
+
+
+
+.author {
+    color: #666;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4b70dd;
+    min-width: 20px;
+    padding: 1px 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.dash-list {
+    display: flex;
+}
+
+.dash-list a {
+    flex: 1;
+}
+
+#start-upload {
+    border: 1px solid #777;
+    border-radius: 5px;
+    color: #444;
+    padding: 8px;
+    margin-left: 20px;
+}
+
+#start-upload:hover {
+    background-color: #4b70dd;
+    color: #fff;
+}
+
+#browse {
+    border: 1px solid #777;
+    border-radius: 5px;
+    color: #444;
+    padding: 8px;
+}
+
+#browse:hover {
+    background-color: #4b70dd;
+    color: #fff;
+}
+
+.message {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.article-iframe{
+    height: 1000px;
+  }
+  
+  @media (max-width: 600px) {
+    .article-iframe{
+        height: 500px;
+    }
+  }
+
+#pdf-viewer{
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.password-policy{
+    border: 2px solid #58b2e6;
+    max-width: 600px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #BBE1F7;
+}
+
+
